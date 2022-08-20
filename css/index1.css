@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; border:0 none }
+
+#top1 { background-color:#BE1D2C; width:100%; height:3px}
+#top2 {background-color:#ffffff; width:100%; height:80px}
+#top2 #m_top {width:970px; height:35px; margin:auto; padding:15px 0;}
+#top2 #m_top #logo { width:200px; height:50px; float:left}
+#top2 #m_top #menu {width:583px; height:50px; float:right}
+#top2 #m_top #menu #me01 {width:65px; height:15px; float:left; margin:18px 0 17px}
+#top2 #m_top #menu #me02 {width:65px; height:15px; float:left; margin:18px 0 17px 110px}
+#top2 #m_top #menu #me03 {width:72px; height:15px; float:left; margin:18px 0 17px 110px}
+#top2 #m_top #menu #me04 {width:65px; height:15px; float:right; margin:18px 0 17px}
+#top3 {background-color:#BE1D2C; width:100%; height:10px}
+
+#main {width:100%; height:auto;}
+#w_mid { background-image:url(../image/bg01.png); background-repeat:repeatd; background-attachment:fixed; width:100%; height:780px; }
+#w_mid #mid { background-color:#0F0; width:980px; height:700px; margin:auto; padding:50px 0 0 0}
+
+#w_mid #mid #new {width:320px; height:621px; float:left; margin:20px 0 0 0 }
+#w_mid #mid #new #text {width:320px; height:300px; float:left;}
+#w_mid #mid #new #rib {width:320px; height:300px; float:left}
+
+#w_mid #mid #right1 {width:315px; height:158px; float:left; margin: 20px 10px 20px 20px}
+#w_mid #mid #right2 { background-color:#fff; width:315px; height:158px; float:right; margin:20px 0 0 0;}
+#w_mid #mid #m_right { width:640px; height:250x; float:right; margin: 0 0 10px 10px;}
+#w_mid #mid #m_right #m_01 { width:160px; height:250px; float:left}
+#w_mid #mid #m_right #m_02 { width:160px; height:250px; float:left}
+#w_mid #mid #m_right #m_03 { width:160px; height:250px; float:left}
+#w_mid #mid #m_right #m_04 { width:160px; height:250px; float:left}
+#w_mid #mid #b_right1 {width:315px; height:150px; float:right; margin: 10px 0 0px 10px; border-radius:15px}
+#w_mid #mid #b_right2 {background-image:url(../image/fac01.png); width:315px; height:150px; float:right;margin: 10px 0 0px 10px; border-radius:15px; }
+
+#w_mid #footer {background-color:#eee; width:100%; height:80px; float:left; padding:25px 0 0 0}
+#w_mid #footer #m_footer {width:970px; height:65px; margin:auto; }
+#w_mid #footer #m_footer #logo1 {width:200px; height:50px; float:left;}
+#w_mid #footer #m_footer #text1 {width:580px; height:45px; float:right; margin:5px 0 0 0}
+
+a:link {color: #666;text-decoration: none;}
+a:visited {color: #666;text-decoration: none;}
+a:hover {color:#BE1D2C;text-decoration: none;}
+a:active {color: #666;text-decoration: none;}
+
+
+.fixed {font-size: 50px; font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align: center; vertical-align:middle; line-height: 2.5em; color:#fff}
+.menu {font-size: 15px ;font-family:'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align: center;}
+.footer {font-size: 11.5px ;font-family:'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: normal; text-align: left;}
+
+
+
+@font-face{ font-family: 'NanumBarunGothic'; font-style: normal; font-weight: bolder; src: url('../font/NanumBarunGothic.eot');  src: local('※'), url('../font/NanumBarunGothic.woff') format('woff'), url('../font/NanumBarunGothic.ttf') format('truetype');}
+
+

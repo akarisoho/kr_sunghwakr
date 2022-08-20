@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; border:0 none }
+
+#top1 { background-color:#BE1D2C; width:100%; height:3px}
+#top2 {background-color:#ffffff; width:100%; height:80px}
+#top2 #m_top {width:970px; height:35px; margin:auto; padding:15px 0;}
+#top2 #m_top #logo { width:200px; height:50px; float:left}
+#top2 #m_top #menu {width:583px; height:50px; float:right}
+#top2 #m_top #menu #me01 {width:65px; height:15px; float:left; margin:18px 0 17px}
+#top2 #m_top #menu #me02 {width:65px; height:15px; float:left; margin:18px 0 17px 110px}
+#top2 #m_top #menu #me03 {width:72px; height:15px; float:left; margin:18px 0 17px 110px}
+#top2 #m_top #menu #me04 {width:65px; height:15px; float:right; margin:18px 0 17px}
+#top3 {background-color:#BE1D2C; width:100%; height:10px}
+
+#w_mid {background-image: url(../image/bg01.png); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; width:100%; height:1250px}
+#w_mid #mid { width:970px; height:auto; margin:auto;}
+#w_mid #mid #nu {width:583px; height:16px; float:right; margin:10px 0 30px }
+#w_mid #mid #nu #nu01 {width:80px; height:16px; float:left; margin:0 100px 0 0;}
+#w_mid #mid #nu #nu02 {width:80px; height:16px; float:left;}
+
+#w_mid #mid #m_mid { background-image:url(../image/sub01_m1.png); width:810px; height:57px;float:right; padding:34px 80px}
+
+#w_mid #mid #m_mid #head01 { background-image:url(../image/sub01_m1logo.png); background-repeat:no-repeat; width:155px; height:67px;float:left;}
+#w_mid #mid #m_mid #head02 {width:390px; height:67px;float:right;}
+
+#w_mid #mid #b_mid {background-color:#fff; width:970px; height:1000px;float:right; margin: 15px 0 }
+#w_mid #mid #b_mid #list {width:870px; height:50px;float:left; margin: 30px 50px}
+#w_mid #mid #b_mid #list #list01 {width:180px; height:40px; float:left; margin:0 50px 0 0;text-align: center; vertical-align: middle; border-bottom:5px solid #eee; border-top:5px solid #eee;}
+#w_mid #mid #b_mid #list #list02 {width:180px; height:40px; float:left; margin:0 50px 0 0;text-align: center;	vertical-align: middle;  border-bottom:5px solid #eee; border-top:5px solid #eee;}
+#w_mid #mid #b_mid #list #list03 { width:180px; height:40px; float:left; margin:0 50px 0 0;text-align: center;	vertical-align: middle;  border-bottom:5px solid #eee; border-top:5px solid #eee;}
+#w_mid #mid #b_mid #list #list04 { background-color:#ccc; width:180px; height:40px; float:left; margin:0;text-align: center; vertical-align: middle;  border-bottom:5px solid #666; border-top:5px solid #666;}
+
+#w_mid #mid #b_mid #content01 { background-color:#fff; width:870px; height:850px;float:left; margin:10px 50px 15px;}
+
+
+#footer {background-color:#eee; width:100%; height:80px}
+#footer #m_footer {width:970px; height:50px; margin:auto; padding:15px 0}
+#footer #m_footer #logo1 {width:200px; height:50px; float:left; margin:3px 0 0 0}
+#footer #m_footer #text1 {width:570px; height:45px; float:right; margin:5px 0 0 0}
+
+
+a:link {color: #666;text-decoration: none;}
+a:visited {color: #666;text-decoration: none;}
+a:hover {color:#BE1D2C;text-decoration: none;}
+a:active {color: #666;text-decoration: none;}
+
+
+
+.tap {	font-size: 20px;	font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif;	font-weight: 900;	line-height:40px;	color: #ccc;}
+
+.menu {font-size: 15px ;font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align:center;}
+.s_menu {font-size: 12px ;font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align: left;}
+.here {font-size: 12px; font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align: left; color:#BE1D2C;}
+.point {font-size: 20px; font-family:'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align: left; color:#BE1D2C}
+.head {font-size: 33px;	font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif;	text-align: right;	line-height: 33px;}
+.head1 {font-size: 16px;	font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif;	text-align: right;	line-height: 1.5em; color:#666}
+.h_point {font-size: 25px;	font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif;	font-weight: bolder;	text-align: right;	line-height: 1.3em; color:#BE1D2C}
+
+.footer {font-size: 11.5px ;font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: normal; text-align: left;}
+
+@font-face{ font-family: 'NanumBarunGothic'; font-style: normal; font-weight: bolder; src: url('../font/NanumBarunGothic.eot');  src: local('※'), url('../font/NanumBarunGothic.woff') format('woff'), url('../font/NanumBarunGothic.ttf') format('truetype');}
+
+@font-face{ font-family: 'NanumGothic'; font-style: normal; font-weight: bolder; src: url('../font/NanumGothic.eot');  src: local('※'), url('../font/NanumGothic.woff') format('woff'), url('../font/NanumGothic.ttf') format('truetype');}

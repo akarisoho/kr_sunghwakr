@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;border:0 none;	vertical-align: middle;}
+
+#top1 { background-color:#BE1D2C; width:100%; height:3px}
+#top2 {background-color:#ffffff; width:100%; height:80px}
+#top2 #m_top {width:970px; height:35px; margin:auto; padding:15px 0;}
+#top2 #m_top #logo { width:200px; height:50px; float:left}
+#top2 #m_top #menu {width:583px; height:50px; float:right}
+#top2 #m_top #menu #me01 {width:65px; height:15px; float:left; margin:18px 0 17px}
+#top2 #m_top #menu #me02 {width:65px; height:15px; float:left; margin:18px 0 17px 110px}
+#top2 #m_top #menu #me03 {width:72px; height:15px; float:left; margin:18px 0 17px 110px}
+#top2 #m_top #menu #me04 {width:65px; height:15px; float:right; margin:18px 0 17px}
+#top3 {background-color:#BE1D2C; width:100%; height:10px}
+
+#main {width:100%; height: auto; padding:50px 0 0 0}
+
+#w_mid02{ width:100%; height:575px; background-color:#eee; }
+#w_mid02 #mid02{ width:1000px; height:575px; margin:auto; padding: 50px 0 25px 0 }
+#w_mid02 #mid02 #color01 { width:250px; height:250px; background-color:#111; float:left; }
+#w_mid02 #mid02 #color02 { width:250px; height:250px; background-color:#222; float:left; }
+#w_mid02 #mid02 #color03 { width:500px; height:250px; background-color:#333; float:left; }
+#w_mid02 #mid02 #color04 { width:250px; height:250px; background-color:#111; float:left; }
+#w_mid02 #mid02 #color05 { width:250px; height:250px; background-color:#222; float:left; }
+#w_mid02 #mid02 #color06 { width:500px; height:250px; background-color:#333; float:left; }
+
+#w_mid03{ width:100%; height:910px;  background-image:url(../image/m_hulax.jpg); background-size:100%; background-attachment:fixed; background-repeat:no-repeat; }
+#w_mid03 #mid03 { width:1000px; height:700px; margin:auto; }
+#w_mid03 #mid03 #color00 { width:435px; height:320px; background-color:#fff; float:right; opacity:0.7; margin:330px 0 0 0; padding:30px 0 0 30px;}
+
+#w_mid03 #mid01{ width:1000px; height:150px; margin:auto; padding: 30px 0 0 0;}
+#w_mid03 #mid01 #color05 { width:300px; height:150px; background-color:#1f6; float:left; margin: 0 50px 0 0;}
+#w_mid03 #mid01 #color06 { width:300px; height:150px; background-color:#1f6; float:left; margin: 0 50px 0 0;}
+#w_mid03 #mid01 #color07 { width:300px; height:150px; background-color:#1f6; float:right; margin: 0 ;}
+
+#footer {background-color:#eee; width:100%; height:80px; float:left; padding:25px 0 0 0}
+#footer #m_footer {width:970px; height:65px; margin:auto; }
+#footer #m_footer #logo1 {width:200px; height:50px; float:left;}
+#footer #m_footer #text1 {width:580px; height:45px; float:right; margin:5px 0 0 0}
+
+a:link {color: #666;text-decoration: none;}
+a:visited {color: #666;text-decoration: none;}
+a:hover {color:#BE1D2C;text-decoration: none;}
+a:active {color: #666;text-decoration: none;}
+
+
+.fixed {font-size: 50px; font-family: 'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align: center; vertical-align:middle; line-height: 2.5em; color:#fff}
+.menu {font-size: 15px ;font-family:'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: bolder; text-align: center;}
+.footer {font-size: 11.5px ;font-family:'NanumBarunGothic', 'NanumGothic', 돋움, serif; font-weight: normal; text-align: left;}
+
+
+@font-face{ font-family: 'NanumBarunGothic'; font-style: normal; font-weight: bolder; src: url('../font/NanumBarunGothic.eot');  src: local('※'), url('../font/NanumBarunGothic.woff') format('woff'), url('../font/NanumBarunGothic.ttf') format('truetype');}
+
+@font-face{ font-family: 'NanumGothic'; font-style: normal; font-weight: bolder; src: url('../font/NanumGothic.eot');  src: local('※'), url('../font/NanumGothic.woff') format('woff'), url('../font/NanumGothic.ttf') format('truetype');}
